@@ -17,7 +17,7 @@
 &lt;p>This is a blockquote following a header. Bacon ipsum dolor sit amet t-bone doner shank drumstick, pork belly porchetta chuck sausage brisket ham hock rump pig. Chuck kielbasa leberkas, pork bresaola ham hock filet mignon cow shoulder short ribs biltong.&lt;/p>
 &lt;/blockquote>
 &lt;h3 id="header-3">Header 3&lt;/h3>
-&lt;pre tabindex="0">&lt;code>This is a code block following a header.
+&lt;pre>&lt;code>This is a code block following a header.
 &lt;/code>&lt;/pre>&lt;p>Omne tamen vultus et caelum habitabilis inter est: despondet somnus Olympi Iove foribus: habet data, suos. Suis illi auro verba sibi os Turno. Oris avis mariti callida deficis tangor.&lt;/p>
 &lt;h4 id="header-4">Header 4&lt;/h4>
 &lt;ul>
@@ -159,7 +159,7 @@
 &lt;td>1982&lt;/td>
 &lt;td>Epic Records&lt;/td>
 &lt;td>Grammy Award for Album of the Year, American Music Award for Favorite Pop/Rock Album, American Music Award for Favorite Soul/R&amp;amp;B Album, Brit Award for Best Selling Album, Grammy Award for Best Engineered Album, Non-Classical&lt;/td>
-&lt;td>Wanna Be Startin' Somethin', Baby Be Mine, The Girl Is Mine, Thriller, Beat It, Billie Jean, Human Nature, P.Y.T. (Pretty Young Thing), The Lady in My Life&lt;/td>
+&lt;td>Wanna Be Startin&amp;rsquo; Somethin&amp;rsquo;, Baby Be Mine, The Girl Is Mine, Thriller, Beat It, Billie Jean, Human Nature, P.Y.T. (Pretty Young Thing), The Lady in My Life&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>Prince&lt;/td>
@@ -183,10 +183,10 @@
 &lt;p>Code snippets like &lt;code>var foo = &amp;quot;bar&amp;quot;;&lt;/code> can be shown inline.&lt;/p>
 &lt;p>Also, &lt;code>this should vertically align&lt;/code> &lt;del>&lt;code>with this&lt;/code>&lt;/del> &lt;del>and this&lt;/del>.&lt;/p>
 &lt;p>Code can also be shown in a block element.&lt;/p>
-&lt;pre tabindex="0">&lt;code>foo := &amp;quot;bar&amp;quot;;
+&lt;pre>&lt;code>foo := &amp;quot;bar&amp;quot;;
 bar := &amp;quot;foo&amp;quot;;
 &lt;/code>&lt;/pre>&lt;p>Code can also use syntax highlighting.&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-go" data-lang="go">&lt;span style="color:#204a87;font-weight:bold">func&lt;/span> &lt;span style="color:#000">main&lt;/span>&lt;span style="color:#000;font-weight:bold">()&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-go" data-lang="go">&lt;span style="color:#204a87;font-weight:bold">func&lt;/span> &lt;span style="color:#000">main&lt;/span>&lt;span style="color:#000;font-weight:bold">()&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
 &lt;span style="color:#000">input&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">:=&lt;/span> &lt;span style="color:#4e9a06">`var foo = &amp;#34;bar&amp;#34;;`&lt;/span>
 &lt;span style="color:#000">lexer&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">:=&lt;/span> &lt;span style="color:#000">lexers&lt;/span>&lt;span style="color:#000;font-weight:bold">.&lt;/span>&lt;span style="color:#000">Get&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#34;javascript&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
 &lt;span style="color:#000">iterator&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">_&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">:=&lt;/span> &lt;span style="color:#000">lexer&lt;/span>&lt;span style="color:#000;font-weight:bold">.&lt;/span>&lt;span style="color:#000">Tokenise&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#204a87;font-weight:bold">nil&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">input&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
@@ -196,7 +196,7 @@ bar := &amp;quot;foo&amp;quot;;
 &lt;span style="color:#000">formatter&lt;/span>&lt;span style="color:#000;font-weight:bold">.&lt;/span>&lt;span style="color:#000">Format&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">&amp;amp;&lt;/span>&lt;span style="color:#000">buff&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">style&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">iterator&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
 &lt;span style="color:#000">fmt&lt;/span>&lt;span style="color:#000;font-weight:bold">.&lt;/span>&lt;span style="color:#000">Println&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">buff&lt;/span>&lt;span style="color:#000;font-weight:bold">.&lt;/span>&lt;span style="color:#000">String&lt;/span>&lt;span style="color:#000;font-weight:bold">())&lt;/span>
 &lt;span style="color:#000;font-weight:bold">}&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div>&lt;pre tabindex="0">&lt;code>Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
+&lt;/code>&lt;/pre>&lt;/div>&lt;pre>&lt;code>Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
 &lt;/code>&lt;/pre>&lt;p>Inline code inside table cells should still be distinguishable.&lt;/p>
 &lt;table>
 &lt;thead>
@@ -257,7 +257,7 @@ This is a warning with a title.
 &lt;p>Factum Perseus est brevis abdita Odrysius, quod contendere urbes misceat accessit nudum oris non. Cumque dentibus nullam nec mille potentia regnumque supplex!&lt;/p>
 &lt;h3 id="external-links">External Links&lt;/h3>
 &lt;p>Doloris decurrere vitae Ida Arcades matres de remisit polypus, introrsus et sed qua maerenti? Serpit meta illic ut sinu. Transformat ungues genitor, et visis ademit sustinet abstulit lampadibus. Illis ad et dextra naturale, fatebere mutata &lt;em>cum&lt;/em> Lycum in quid flammas oro. Populus Aurora caerula et feremus clavigeri ungues dubitant et inde corpore clamat, qui non Ilioneus pugnat abstuleris undas, habet.&lt;/p>
-&lt;pre tabindex="0">&lt;code>This is the final element on the page and there should be no margin below this.
+&lt;pre>&lt;code>This is the final element on the page and there should be no margin below this.
 &lt;/code>&lt;/pre></description></item><item><title>Docs: Detaljert om monolitter: Detaljert spesifikasjon</title><link>/no/docs/cloud-computing/in-depth-monoliths-detailed-spec/</link><pubDate>Wed, 04 Jan 2017 00:00:00 +0000</pubDate><guid>/no/docs/cloud-computing/in-depth-monoliths-detailed-spec/</guid><description>
 &lt;p>Text can be &lt;strong>bold&lt;/strong>, &lt;em>italic&lt;/em>, or &lt;del>strikethrough&lt;/del>. &lt;a href="https://gohugo.io">Links&lt;/a> should be blue with no underlines (unless hovered over).&lt;/p>
 &lt;p>There should be whitespace between paragraphs. Lorem markdownum tempus auras formasque ore vir crescere est! Malo quod, hunc, est dura; aut haec simillima nec per conantemque iusserat audax moriensque confessasque. Haec vulneret quam libratum homo pede arbore tu manus membrisque iuveni Clymeneia se cepi unda, iustae? Et genitor humanaeve undis &lt;strong>Dicta limina&lt;/strong> vinoque vestigia decorum nulla ars. Pectora sede: quoque magnum Persidaque in suos, adiciunt tenebor.&lt;/p>
@@ -277,7 +277,7 @@ This is a warning with a title.
 &lt;p>This is a blockquote following a header. Bacon ipsum dolor sit amet t-bone doner shank drumstick, pork belly porchetta chuck sausage brisket ham hock rump pig. Chuck kielbasa leberkas, pork bresaola ham hock filet mignon cow shoulder short ribs biltong.&lt;/p>
 &lt;/blockquote>
 &lt;h3 id="header-3">Header 3&lt;/h3>
-&lt;pre tabindex="0">&lt;code>This is a code block following a header.
+&lt;pre>&lt;code>This is a code block following a header.
 &lt;/code>&lt;/pre>&lt;p>Omne tamen vultus et caelum habitabilis inter est: despondet somnus Olympi Iove foribus: habet data, suos. Suis illi auro verba sibi os Turno. Oris avis mariti callida deficis tangor.&lt;/p>
 &lt;h4 id="header-4">Header 4&lt;/h4>
 &lt;ul>
@@ -419,7 +419,7 @@ This is a warning with a title.
 &lt;td>1982&lt;/td>
 &lt;td>Epic Records&lt;/td>
 &lt;td>Grammy Award for Album of the Year, American Music Award for Favorite Pop/Rock Album, American Music Award for Favorite Soul/R&amp;amp;B Album, Brit Award for Best Selling Album, Grammy Award for Best Engineered Album, Non-Classical&lt;/td>
-&lt;td>Wanna Be Startin' Somethin', Baby Be Mine, The Girl Is Mine, Thriller, Beat It, Billie Jean, Human Nature, P.Y.T. (Pretty Young Thing), The Lady in My Life&lt;/td>
+&lt;td>Wanna Be Startin&amp;rsquo; Somethin&amp;rsquo;, Baby Be Mine, The Girl Is Mine, Thriller, Beat It, Billie Jean, Human Nature, P.Y.T. (Pretty Young Thing), The Lady in My Life&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>Prince&lt;/td>
@@ -443,10 +443,10 @@ This is a warning with a title.
 &lt;p>Code snippets like &lt;code>var foo = &amp;quot;bar&amp;quot;;&lt;/code> can be shown inline.&lt;/p>
 &lt;p>Also, &lt;code>this should vertically align&lt;/code> &lt;del>&lt;code>with this&lt;/code>&lt;/del> &lt;del>and this&lt;/del>.&lt;/p>
 &lt;p>Code can also be shown in a block element.&lt;/p>
-&lt;pre tabindex="0">&lt;code>foo := &amp;quot;bar&amp;quot;;
+&lt;pre>&lt;code>foo := &amp;quot;bar&amp;quot;;
 bar := &amp;quot;foo&amp;quot;;
 &lt;/code>&lt;/pre>&lt;p>Code can also use syntax highlighting.&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-go" data-lang="go">&lt;span style="color:#204a87;font-weight:bold">func&lt;/span> &lt;span style="color:#000">main&lt;/span>&lt;span style="color:#000;font-weight:bold">()&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-go" data-lang="go">&lt;span style="color:#204a87;font-weight:bold">func&lt;/span> &lt;span style="color:#000">main&lt;/span>&lt;span style="color:#000;font-weight:bold">()&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
 &lt;span style="color:#000">input&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">:=&lt;/span> &lt;span style="color:#4e9a06">`var foo = &amp;#34;bar&amp;#34;;`&lt;/span>
 &lt;span style="color:#000">lexer&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">:=&lt;/span> &lt;span style="color:#000">lexers&lt;/span>&lt;span style="color:#000;font-weight:bold">.&lt;/span>&lt;span style="color:#000">Get&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#34;javascript&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
 &lt;span style="color:#000">iterator&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">_&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">:=&lt;/span> &lt;span style="color:#000">lexer&lt;/span>&lt;span style="color:#000;font-weight:bold">.&lt;/span>&lt;span style="color:#000">Tokenise&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#204a87;font-weight:bold">nil&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">input&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
@@ -456,7 +456,7 @@ bar := &amp;quot;foo&amp;quot;;
 &lt;span style="color:#000">formatter&lt;/span>&lt;span style="color:#000;font-weight:bold">.&lt;/span>&lt;span style="color:#000">Format&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">&amp;amp;&lt;/span>&lt;span style="color:#000">buff&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">style&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">iterator&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
 &lt;span style="color:#000">fmt&lt;/span>&lt;span style="color:#000;font-weight:bold">.&lt;/span>&lt;span style="color:#000">Println&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">buff&lt;/span>&lt;span style="color:#000;font-weight:bold">.&lt;/span>&lt;span style="color:#000">String&lt;/span>&lt;span style="color:#000;font-weight:bold">())&lt;/span>
 &lt;span style="color:#000;font-weight:bold">}&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div>&lt;pre tabindex="0">&lt;code>Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
+&lt;/code>&lt;/pre>&lt;/div>&lt;pre>&lt;code>Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
 &lt;/code>&lt;/pre>&lt;p>Inline code inside table cells should still be distinguishable.&lt;/p>
 &lt;table>
 &lt;thead>
@@ -517,7 +517,7 @@ This is a warning with a title.
 &lt;p>Factum Perseus est brevis abdita Odrysius, quod contendere urbes misceat accessit nudum oris non. Cumque dentibus nullam nec mille potentia regnumque supplex!&lt;/p>
 &lt;h3 id="external-links">External Links&lt;/h3>
 &lt;p>Doloris decurrere vitae Ida Arcades matres de remisit polypus, introrsus et sed qua maerenti? Serpit meta illic ut sinu. Transformat ungues genitor, et visis ademit sustinet abstulit lampadibus. Illis ad et dextra naturale, fatebere mutata &lt;em>cum&lt;/em> Lycum in quid flammas oro. Populus Aurora caerula et feremus clavigeri ungues dubitant et inde corpore clamat, qui non Ilioneus pugnat abstuleris undas, habet.&lt;/p>
-&lt;pre tabindex="0">&lt;code>This is the final element on the page and there should be no margin below this.
+&lt;pre>&lt;code>This is the final element on the page and there should be no margin below this.
 &lt;/code>&lt;/pre></description></item><item><title>Docs: Praktiske eksempler</title><link>/no/docs/cloud-computing/examples/</link><pubDate>Wed, 04 Jan 2017 00:00:00 +0000</pubDate><guid>/no/docs/cloud-computing/examples/</guid><description>
 &lt;p>Dette er landingssiden til en seksjon et sted nede i seksjonshierarkiet.&lt;/p>
 &lt;ul>
@@ -549,7 +549,7 @@ This is a warning with a title.
 &lt;p>This is a blockquote following a header. Bacon ipsum dolor sit amet t-bone doner shank drumstick, pork belly porchetta chuck sausage brisket ham hock rump pig. Chuck kielbasa leberkas, pork bresaola ham hock filet mignon cow shoulder short ribs biltong.&lt;/p>
 &lt;/blockquote>
 &lt;h3 id="header-3">Header 3&lt;/h3>
-&lt;pre tabindex="0">&lt;code>This is a code block following a header.
+&lt;pre>&lt;code>This is a code block following a header.
 &lt;/code>&lt;/pre>&lt;p>Omne tamen vultus et caelum habitabilis inter est: despondet somnus Olympi Iove foribus: habet data, suos. Suis illi auro verba sibi os Turno. Oris avis mariti callida deficis tangor.&lt;/p>
 &lt;h4 id="header-4">Header 4&lt;/h4>
 &lt;ul>
@@ -691,7 +691,7 @@ This is a warning with a title.
 &lt;td>1982&lt;/td>
 &lt;td>Epic Records&lt;/td>
 &lt;td>Grammy Award for Album of the Year, American Music Award for Favorite Pop/Rock Album, American Music Award for Favorite Soul/R&amp;amp;B Album, Brit Award for Best Selling Album, Grammy Award for Best Engineered Album, Non-Classical&lt;/td>
-&lt;td>Wanna Be Startin' Somethin', Baby Be Mine, The Girl Is Mine, Thriller, Beat It, Billie Jean, Human Nature, P.Y.T. (Pretty Young Thing), The Lady in My Life&lt;/td>
+&lt;td>Wanna Be Startin&amp;rsquo; Somethin&amp;rsquo;, Baby Be Mine, The Girl Is Mine, Thriller, Beat It, Billie Jean, Human Nature, P.Y.T. (Pretty Young Thing), The Lady in My Life&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>Prince&lt;/td>
@@ -715,10 +715,10 @@ This is a warning with a title.
 &lt;p>Code snippets like &lt;code>var foo = &amp;quot;bar&amp;quot;;&lt;/code> can be shown inline.&lt;/p>
 &lt;p>Also, &lt;code>this should vertically align&lt;/code> &lt;del>&lt;code>with this&lt;/code>&lt;/del> &lt;del>and this&lt;/del>.&lt;/p>
 &lt;p>Code can also be shown in a block element.&lt;/p>
-&lt;pre tabindex="0">&lt;code>foo := &amp;quot;bar&amp;quot;;
+&lt;pre>&lt;code>foo := &amp;quot;bar&amp;quot;;
 bar := &amp;quot;foo&amp;quot;;
 &lt;/code>&lt;/pre>&lt;p>Code can also use syntax highlighting.&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-go" data-lang="go">&lt;span style="color:#204a87;font-weight:bold">func&lt;/span> &lt;span style="color:#000">main&lt;/span>&lt;span style="color:#000;font-weight:bold">()&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-go" data-lang="go">&lt;span style="color:#204a87;font-weight:bold">func&lt;/span> &lt;span style="color:#000">main&lt;/span>&lt;span style="color:#000;font-weight:bold">()&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
 &lt;span style="color:#000">input&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">:=&lt;/span> &lt;span style="color:#4e9a06">`var foo = &amp;#34;bar&amp;#34;;`&lt;/span>
 &lt;span style="color:#000">lexer&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">:=&lt;/span> &lt;span style="color:#000">lexers&lt;/span>&lt;span style="color:#000;font-weight:bold">.&lt;/span>&lt;span style="color:#000">Get&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#34;javascript&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
 &lt;span style="color:#000">iterator&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">_&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">:=&lt;/span> &lt;span style="color:#000">lexer&lt;/span>&lt;span style="color:#000;font-weight:bold">.&lt;/span>&lt;span style="color:#000">Tokenise&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#204a87;font-weight:bold">nil&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">input&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
@@ -728,7 +728,7 @@ bar := &amp;quot;foo&amp;quot;;
 &lt;span style="color:#000">formatter&lt;/span>&lt;span style="color:#000;font-weight:bold">.&lt;/span>&lt;span style="color:#000">Format&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">&amp;amp;&lt;/span>&lt;span style="color:#000">buff&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">style&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">iterator&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
 &lt;span style="color:#000">fmt&lt;/span>&lt;span style="color:#000;font-weight:bold">.&lt;/span>&lt;span style="color:#000">Println&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">buff&lt;/span>&lt;span style="color:#000;font-weight:bold">.&lt;/span>&lt;span style="color:#000">String&lt;/span>&lt;span style="color:#000;font-weight:bold">())&lt;/span>
 &lt;span style="color:#000;font-weight:bold">}&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div>&lt;pre tabindex="0">&lt;code>Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
+&lt;/code>&lt;/pre>&lt;/div>&lt;pre>&lt;code>Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
 &lt;/code>&lt;/pre>&lt;p>Inline code inside table cells should still be distinguishable.&lt;/p>
 &lt;table>
 &lt;thead>
@@ -789,5 +789,5 @@ This is a warning with a title.
 &lt;p>Factum Perseus est brevis abdita Odrysius, quod contendere urbes misceat accessit nudum oris non. Cumque dentibus nullam nec mille potentia regnumque supplex!&lt;/p>
 &lt;h3 id="external-links">External Links&lt;/h3>
 &lt;p>Doloris decurrere vitae Ida Arcades matres de remisit polypus, introrsus et sed qua maerenti? Serpit meta illic ut sinu. Transformat ungues genitor, et visis ademit sustinet abstulit lampadibus. Illis ad et dextra naturale, fatebere mutata &lt;em>cum&lt;/em> Lycum in quid flammas oro. Populus Aurora caerula et feremus clavigeri ungues dubitant et inde corpore clamat, qui non Ilioneus pugnat abstuleris undas, habet.&lt;/p>
-&lt;pre tabindex="0">&lt;code>This is the final element on the page and there should be no margin below this.
+&lt;pre>&lt;code>This is the final element on the page and there should be no margin below this.
 &lt;/code>&lt;/pre></description></item></channel></rss>
