@@ -86,7 +86,8 @@ Fetch and scale an image in the upcoming Hugo 0.43.
         
         &lt;h2 id=&#34;test-2&#34;&gt;test 2&lt;/h2&gt;
 &lt;p&gt;more text
-edited here&lt;/p&gt;
+edited here
+more editing&lt;/p&gt;
 &lt;p&gt;Text can be &lt;strong&gt;bold&lt;/strong&gt;, &lt;em&gt;italic&lt;/em&gt;, or &lt;del&gt;strikethrough&lt;/del&gt;. &lt;a href=&#34;https://github.com&#34;&gt;Links&lt;/a&gt; should be blue with no underlines (unless hovered over).&lt;/p&gt;
 &lt;p&gt;There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs.&lt;/p&gt;
 &lt;p&gt;There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs.&lt;/p&gt;
